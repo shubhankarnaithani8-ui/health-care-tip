@@ -1,1 +1,154 @@
+    .tips {
+      background: #ffffff;
+    }
+
+    .tip-box {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .tip {
+      padding: 25px;
+      background: #eefaf9;
+      border-left: 5px solid #0b9f9a;
+      border-radius: 8px;
+    }
+
+    .appointment {
+      background: linear-gradient(135deg, #0b9f9a, #087b77);
+      color: white;
+      text-align: center;
+    }
+
+    .appointment h2 {
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+
+    .appointment p {
+      margin-bottom: 25px;
+    }
+
+    .appointment .btn {
+      background: white;
+      color: #087b77;
+    }
+
+    footer {
+      background: #123b5d;
+      color: white;
+      padding: 30px 8%;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 5px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      nav a {
+        margin: 0 7px;
+      }
+
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      .tip-box {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body> 
+  <p>Created by Pranjal Bahuguna</p>
+
+  <header>
+    <div class="logo">💙 HealthCare Plus</div>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#tips">Health Tips</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+
+    <div class="hero-text">
+      <h1>Your Health, <span>Our Priority</span></h1>
+
+      <p>
+        Welcome to HealthCare Plus — a simple platform for
+        learning about healthy habits, healthcare services and
+        everyday wellness.
+      </p>
+
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+
+    <div class="hero-card">
+      <div class="icon">🩺</div>
+      <h2>Better Health</h2>
+      <p>Small healthy habits can make a big difference.</p>
+    </div>
+
+  </section>
+
+  <section id="services">
+
+    <div class="section-title">
+      <h2>Our Healthcare Services</h2>
+      <p>Information and support for a healthier lifestyle.</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <div class="icon">👨‍⚕️</div>
+        <h3>Doctor Consultation</h3>
+        <p>
+          Learn about the importance of consulting qualified
+          healthcare professionals.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">❤️</div>
+        <h3>Healthy Lifestyle</h3>
+        <p>
+          Discover simple habits related to nutrition,
+          physical activity and wellbeing.
+        </p>
+      </div>
+
+      <div class="card">
+        <div class="icon">🚑</div>
+        <h3>Emergency Care</h3>
+        <p>
+          In an emergency, contact your local emergency
+          services or seek immediate medical care.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
 
